@@ -1,0 +1,28 @@
+
+.rar-wrap { max-width: 1100px; }
+.rar-subtitle { color: #666; margin-bottom: 20px; font-size: 15px; }
+.rar-stats { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+.rar-stat-box {
+    background: #fff; border: 1px solid #ddd; border-radius: 8px;
+    padding: 16px 24px; text-align: center; min-width: 140px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.rar-stat-box.green { border-top: 3px solid #00a32a; }
+.rar-stat-box.orange { border-top: 3px solid #dba617; }
+.rar-stat-box.blue { border-top: 3px solid #2271b1; }
+.rar-stat-num { display: block; font-size: 32px; font-weight: 700; color: #1d2327; }
+.rar-stat-label { font-size: 12px; color: #666; }
+.rar-card {
+    background: #fff; border: 1px solid #ddd; border-radius: 8px;
+    padding: 20px 24px; margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.rar-card h2 { margin-top: 0; padding-bottom: 10px; border-bottom: 1px solid #f0f0f0; }
+.rar-actions { margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
+.rar-btn { height: 36px !important; }
+.rar-badge {
+    display: inline-block; padding: 3px 10px; border-radius: 20px;
+    font-size: 12px; font-weight: 600;
+}
+.rar-badge.active { background: #d8ffd8; color: #00a32a; }
+.rar-badge.inactive { background: #f0f0f0; color: #888; }

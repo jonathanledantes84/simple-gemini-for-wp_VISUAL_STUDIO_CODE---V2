@@ -1,0 +1,29 @@
+
+.prn-wrap { max-width: 1100px; }
+.prn-header { margin-bottom: 24px; }
+.prn-header h1 { font-size: 24px; margin-bottom: 4px; }
+.prn-subtitle { color: #666; font-size: 14px; margin: 0; }
+.prn-stats { display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; }
+.prn-stat {
+    background: #fff; border: 1px solid #ddd; border-radius: 10px;
+    padding: 14px 20px; text-align: center; min-width: 120px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06); border-top: 3px solid #c3c4c7;
+}
+.prn-stat.green  { border-top-color: #00a32a; }
+.prn-stat.orange { border-top-color: #dba617; }
+.prn-stat.blue   { border-top-color: #2271b1; }
+.prn-stat.purple { border-top-color: #9b59b6; }
+.prn-stat-num   { display: block; font-size: 30px; font-weight: 700; color: #1d2327; line-height: 1; }
+.prn-stat-label { font-size: 11px; color: #777; text-transform: uppercase; letter-spacing: .4px; }
+.prn-card {
+    background: #fff; border: 1px solid #ddd; border-radius: 10px;
+    padding: 20px 24px; margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.prn-card h2 { margin-top: 0; padding-bottom: 10px; border-bottom: 1px solid #f0f0f0; font-size: 16px; }
+.prn-actions { margin-bottom: 20px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.prn-btn { height: 36px !important; }
+.prn-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.prn-badge.active   { background: #d8ffd8; color: #00a32a; }
+.prn-badge.inactive { background: #f0f0f0; color: #888; }
+#prn-action-result  { font-weight: bold; color: #2271b1; }
