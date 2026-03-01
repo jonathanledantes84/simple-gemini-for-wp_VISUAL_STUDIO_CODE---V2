@@ -1,0 +1,1 @@
+# simple-gemini-for-wp_VISUAL_STUDIO_CODE---V2
